@@ -168,3 +168,38 @@ Full priority list: see `NEXT_STEPS.md` in this repo.
 
 *WhollyFare® · Sentir Solutions® LLC · Charlottesville, VA*
 *Generated: 2026-06-02 end of session*
+
+---
+
+## WhollyCare Pillar Work — Structure to Build Next Session
+
+Tim's direction: WhollyCare needs its own air on sentir-solutions. Not a footnote to the four 
+spending brands — a separate pillar with its own visual identity and framing.
+
+### Three structural moves (to implement next session):
+
+**1. Two named sections on brands.html**
+- Section A: "The Wholly Platform" — 4 brand cards, subscription engine, household spending
+- Section B: "The WhollyCare Mission" — full-width, dark navy, no pricing, no Coming Soon badge
+  Opening line: *"Free. Because it should be."*
+
+**2. Nav treatment — separate from brand links**
+WhollyCare gets a visually distinct nav item with a green FREE badge, not grouped with WhollyBare etc.
+Signals at a glance: this is categorically different.
+
+**3. The bridge sentence between the two sections**
+> "Four brands apply the Sincere Strategy to your grocery bill, your medicine cabinet, your pets, 
+> and your pantry. WhollyCare applies it to the conversation your doctor, your insurer, and your 
+> specialist are having about you — whether you're in the room or not."
+
+That line is the pillar. It earns WhollyCare its own section without diminishing the four brands.
+
+### What to do with it on sentir-solutions homepage (index.html):
+- Two-row brand display: row 1 = four spending brands, row 2 = WhollyCare alone, full width
+- Different background color for row 2 (the dark navy from the WhollyCare site theme)
+- No subscription pricing shown — just the mission line and FREE badge
+
+### The investor read on this architecture:
+"We built a platform company that earns on four categories of household spending,
+and gives away the fifth thing — healthcare advocacy — because the families we serve
+can't afford for it to cost anything. That's not a loss leader. That's the proof of character."
