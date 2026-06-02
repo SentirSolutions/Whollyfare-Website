@@ -188,7 +188,7 @@ Note: Sentir_Consulting directory is NOT a git repo. WhollyCare blueprint is sav
 | Brand | What it is | Status |
 |---|---|---|
 | WhollyFare® | Grocery price optimization + meal planning | Active pilot, Phase 1 |
-| WhollyBody™ | Personal care pricing (CVS, Walgreens, Ulta) | Blueprint only |
+| WhollyBare™ | Personal care & beauty — ingredient-transparent, honest pricing (CVS, Walgreens, Ulta) | Blueprint only |
 | WhollyPaws™ | Pet food + supplies optimization | Blueprint only |
 | WhollyWare™ | Household non-perishables | Blueprint only |
 | WhollyCare® | Free health advocacy platform | Blueprint written, not yet built |
