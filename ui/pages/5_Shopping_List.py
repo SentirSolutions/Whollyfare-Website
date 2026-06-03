@@ -891,21 +891,28 @@ with st.form("add_hs_form", clear_on_submit=True):
 
 st.divider()
 
+# ── Callbacks for check/clear — must use on_click so state is set before
+# widgets render. Setting widget-keyed session_state inside `if st.button:`
+# blocks (after render) causes StreamlitAPIException in Streamlit 1.31+.
+def _check_all_cb():
+    _cart = st.session_state.get("shopping_cart", {})
+    _regs = st.session_state.get("weekly_regulars", [])
+    for _store, _items in _cart.items():
+        for _item in _items:
+            st.session_state["chk_" + _store + "_" + _item["name"]] = True
+    for _reg in _regs:
+        st.session_state["chk_wr_" + _reg["name"]] = True
+
+def _clear_all_cb():
+    for _k in list(st.session_state.keys()):
+        if _k.startswith("chk_"):
+            st.session_state[_k] = False
+
 # Reset + rebuild controls
 btn1, btn2 = st.columns(2)
 with btn1:
-    if st.button("Check all items", use_container_width=True):
-        for store, items in cart.items():
-            for item in items:
-                st.session_state["chk_" + store + "_" + item["name"]] = True
-        for reg in weekly_regs:
-            st.session_state["chk_wr_" + reg["name"]] = True
-        st.rerun()
-    if st.button("Clear all items", use_container_width=True):
-        for k in list(st.session_state.keys()):
-            if k.startswith("chk_"):
-                st.session_state[k] = False
-        st.rerun()
+    st.button("Check all items", on_click=_check_all_cb, use_container_width=True)
+    st.button("Clear all items", on_click=_clear_all_cb, use_container_width=True)
 with btn2:
     if st.button("🔄 Rebuild from this week's plan", use_container_width=True):
         # Re-derive cart by clearing shopping_cart — plan page will repopulate on next visit

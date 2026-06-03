@@ -2208,6 +2208,16 @@ def get_recipe(recipe_id: str) -> Optional[dict]:
     return _BY_ID.get(recipe_id)
 
 
+def get_recipe_shopping_items(recipe: dict) -> list[dict]:
+    """Return ingredients from a recipe that need to be purchased (pantry_stable=False).
+
+    Used by the meal planner and Plan page to build the shopping-required ingredient
+    list for a matched recipe. Pantry-stable items (spices, oils, staples the household
+    already has) are excluded — only purchase-needed items are returned.
+    """
+    return [i for i in recipe.get("ingredients", []) if not i.get("pantry_stable", False)]
+
+
 def query_recipes(
     proteins: Optional[list] = None,
     cuisines: Optional[list] = None,
@@ -2303,6 +2313,13 @@ def recipes_for_sale_items(
         # If intersection is empty, fall back to sale matches only
         if not matched_proteins:
             pass  # fall back handled by returning all matched below
+
+    return query_recipes(
+        proteins=list(matched_proteins) if matched_proteins else None,
+        cuisines=cuisines,
+        dietary_flags=dietary_flags,
+        exclude_ids=exclude_ids,
+    )
 
 
 # =============================================================================
