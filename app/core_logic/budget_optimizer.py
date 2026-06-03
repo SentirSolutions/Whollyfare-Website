@@ -106,6 +106,13 @@ class BudgetOptimizer:
         if not category_balance:
             return scored[:max_count]
 
+        # Strip non-meal items before selection — household products, personal care,
+        # beverages, and snacks are scored by the optimizer but must never become
+        # hero ingredients that drive a dinner plan.
+        # POC: category string match. PROD: USDA FDC category mapping.
+        _NON_MEAL = {"household", "personal_care", "beverage", "snack"}
+        scored = [s for s in scored if s.ingredient.category not in _NON_MEAL]
+
         # Target category distribution (MVP heuristic)
         targets = {
             "produce": 2,
