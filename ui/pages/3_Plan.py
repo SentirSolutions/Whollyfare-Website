@@ -790,9 +790,21 @@ if prefs:
                 + (f" · <em>{notes}</em>" if notes else "")
                 + "</div>")
     with _btn_col:
-        if st.button("Change preferences", key="change_prefs"):
-            st.session_state["_show_prefs_form"] = True
-            st.rerun()
+        _b1, _b2 = st.columns(2)
+        with _b1:
+            if st.button("Change preferences", key="change_prefs", use_container_width=True):
+                st.session_state["_show_prefs_form"] = True
+                st.rerun()
+        with _b2:
+            if st.button("🔄 Regenerate", key="clear_plan", use_container_width=True,
+                         help="Clear the current plan and rebuild from this week's flyers"):
+                st.session_state.pop("plan", None)
+                _current_prefs = st.session_state.get("weekly_prefs", {})
+                if _current_prefs:
+                    _run_engine(_current_prefs)
+                else:
+                    st.session_state["_show_prefs_form"] = True
+                st.rerun()
 
 totals   = plan["totals"]
 meals    = plan["meals"]
