@@ -84,7 +84,7 @@ FAQ_SECTIONS = [
                 "a": (
                     "The Price Finder tier is free forever — no credit card, no expiry. It gives "
                     "you cross-store price comparison and weekly savings reports. The Meal Planner "
-                    "($7/mo), Health Guard ($19/mo), and Full Table ($29/mo) tiers add the weekly "
+                    "($9/mo) and Health Guard ($19/mo) tiers add the weekly "
                     "plan, health filtering, and full recipes. There are zero paid placements, "
                     "zero ads, and your data is never sold."
                 ),
@@ -448,11 +448,11 @@ FAQ_SECTIONS = [
                 "a": (
                     "Price Finder (Free): cross-store price comparison, coupon matching, "
                     "weekly savings report. "
-                    "Meal Planner ($7/mo): everything in Price Finder, plus weekly 5-dinner plan, "
+                    "Meal Planner ($9/mo): everything in Price Finder, plus weekly 5-dinner plan, "
                     "Sunday Buy-Off, shopping list by store, Found Money tracking. "
                     "Health Guard ($19/mo): everything in Meal Planner, plus clinical-grade dietary "
                     "filtering for allergens and health conditions. "
-                    "Full Table ($29/mo): everything in Health Guard, plus full step-by-step "
+                    "Health Guard ($19/mo) includes full step-by-step "
                     "recipes, cuisine preference memory, and meal history."
                 ),
             },

@@ -11,6 +11,14 @@ That's the demo. Build it today.
 
 ---
 
+## The One-Line Frame (say this before the demo)
+
+*"Sentir Solutions is building one platform for household spending. WhollyFare proves it in the hardest category — groceries. The same engine extends to household goods (WhollyWare), pets (WhollyPaws), and personal care (WhollyBare) — under one membership (Free / $9 / $19) where every category is included and new ones cost the member nothing extra. That 'more useful, same price' promise is a moat: an ad- or SKU-funded competitor can't copy it without breaking its own model. And WhollyCare — a free health-advocacy product — proves the sincerity isn't a slogan."*
+
+This turns a grocery demo into a platform story. The zip-switching demo below proves the engine is already at national scale; this sentence tells the room what that scale is *for*. One membership, one engine, a roadmap sequenced by impact.
+
+---
+
 ## What to Build: National Demo Tab in Admin
 
 Add a **6th tab** to `ui/pages/11_Admin.py`: `🌎 National Demo`

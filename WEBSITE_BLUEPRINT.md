@@ -517,7 +517,7 @@ from WhollyFare via the Kroger API. The shopping list becomes a cart. One tap.
 ---
 
 #### `14_Recipe_Library.py` — Recipe Library
-**Status:** 🔒 Requires Investment — Full Table tier, Phase 3
+**Status:** 🔒 Requires Investment — Health tier, Phase 3
 
 **What it does:** Full recipes for every meal in the plan. Cuisine preference
 memory — the planner remembers what you've loved and steers toward it. Meal
@@ -527,7 +527,7 @@ history so you never see the same dinner twice in a month unless you want to.
 - "Full recipes built around your actual sale prices. Every ingredient in every
   recipe is something you're already buying this week."
 - "Cuisine memory: WhollyFare learns what your family loves and plans around it."
-- "Full Table tier — launching Phase 3"
+- "Health tier — launching Phase 3"
 
 **Database tables read:** `plan_meals`, `meal_history`, `meal_ratings`,
 `household_cuisine_preferences`, `household_meal_preferences`
@@ -535,14 +535,14 @@ history so you never see the same dinner twice in a month unless you want to.
 ---
 
 #### `15_Pantry.py` — Pantry Tracker
-**Status:** 🔒 Requires Investment — Full Table tier, Phase 3
+**Status:** 🔒 Requires Investment — Health tier, Phase 3
 
 **What it does:** Track what's already in your pantry. Ingredients you have
 on hand are deducted from the shopping list. The optimizer accounts for pantry
 stock when building the plan.
 
 **Stub page content:** "Never buy a second bottle of olive oil you didn't need.
-Pantry Tracker — Full Table tier, Phase 3."
+Pantry Tracker — Health tier, Phase 3."
 
 ---
 

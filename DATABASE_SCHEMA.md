@@ -524,7 +524,7 @@ Think of it as a materialized view — it's always current and always fast.
 - Annual savings projection on the Ledger page renders instantly — no aggregation query
 - "You've now saved more than $500 total" milestone notification
 - "Your best week was $67 saved — week of March 3" — shown in the Ledger
-- Streak counter: "🔥 8 weeks in a row" — retention gamification (Full Table tier)
+- Streak counter: "🔥 8 weeks in a row" — retention gamification (Health tier)
 - Investor dashboard: sort all households by `projected_annual_savings` to find your power users
 
 ---

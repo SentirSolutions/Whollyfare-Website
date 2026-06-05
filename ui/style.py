@@ -418,7 +418,7 @@ def sidebar_nav():
                     "<div style='font-size:0.7rem;color:#5A7A62;margin-top:2px;'>"
                     "Upgrade to keep your weekly plan.</div></div>"
                 )
-                if st.button("Upgrade — from $7/mo →", key="free_upgrade_btn",
+                if st.button("Upgrade — from $9/mo →", key="free_upgrade_btn",
                              use_container_width=True, type="primary"):
                     st.switch_page("Home.py")
     except Exception:

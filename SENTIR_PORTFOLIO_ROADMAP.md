@@ -13,7 +13,7 @@ The moat is structural. Competitors cannot copy it without destroying their own 
 WhollyFare proved the model in the hardest category — perishables, where freshness, meal planning, and dietary complexity all compound. Every brand that follows is simpler to build because the engine is already proven.
 
 **The investor answer in one sentence:**
-*"Sentir Solutions is building the Sincere Strategy platform for household spending — an allergen-aware, cross-retailer price optimizer. WhollyFare proved it with food. WhollyWare, WhollyPaws, and WhollyCare extend it to every shelf in the house. Same engine, four markets, one founding principle."*
+*"Sentir Solutions is building the Sincere Strategy platform for household spending — an allergen-aware, cross-retailer price optimizer. WhollyFare proved it with food. WhollyWare, WhollyPaws, and WhollyBare extend it to every shelf in the house — one membership, one engine, one founding principle. (WhollyCare, a free health-advocacy product, proves the sincerity isn't a slogan.)"*
 
 ---
 
@@ -22,11 +22,17 @@ WhollyFare proved the model in the hardest category — perishables, where fresh
 ```
 Sentir Solutions® LLC  (holding company — investor-facing)
 ├── sentir-consulting       AI consulting practice (original business, sub-brand)
-├── WhollyFare®            Perishables + meal planning (active, Phase 1 pilot)
-├── WhollyWare™            Household non-perishables
-├── WhollyPaws™            Pet food + supplies
-└── WhollyCare™            Personal care + beauty
+│
+├── The Wholly Platform — ONE membership, every category included
+│   ├── WhollyFare®        Groceries + meal planning (active, Phase 1 pilot)
+│   ├── WhollyWare™        Household non-perishables
+│   ├── WhollyPaws™        Pet food + supplies
+│   └── WhollyBare™        Personal care + beauty
+│
+└── WhollyCare®           FREE health-advocacy platform (halo product — proves the sincerity)
 ```
+
+*The four Wholly categories are not four products with four bills. They are one membership (Free / $9 / $19) where every category is included and new ones light up at no extra charge. WhollyCare is deliberately free and separate — see below.*
 
 ---
 
@@ -42,6 +48,21 @@ Every brand enforces these rules identically:
 | Zero paid placements | Revenue is subscriptions only. Retailers cannot pay to appear higher. Ever. |
 | Local-first | Plans built from your actual stores' actual prices, not national averages. |
 | Data never sold | User data is not sold, shared, or used for targeting. Full stop. |
+| **Inclusive by default** | **We never charge you more for getting better. Every category we add is included in the membership you already have. No add-on SKUs, no module fees.** |
+
+---
+
+## The Unified Membership — One Price, Every Category
+
+This supersedes the separate-subscription-per-brand model in the May draft. There is **one** Wholly membership. Tiers are about depth of capability, not which category you unlock. Every category (food, household, pet, personal care) is included at every tier, and each new category lights up for existing members at no additional charge.
+
+| Tier | Price | The job | Categories |
+|---|---|---|---|
+| **Free — Save** | $0 | Cross-store price optimization + automatic coupon matching | All |
+| **Plus — Plan** | $9/mo | + planning (meals / household / reorder cadence), weekly buy-off, recipe & suggestion layer | All |
+| **Full — Protect** | $19/mo | + the complete health-aware constraint engine (allergens, medical, skin, pet diet — all members, auditable) + price history | All |
+
+Safety is never split — the full constraint engine lives whole inside Full. The model is a moat: a competitor funded by ads or per-SKU licensing cannot match "more useful, same price" without breaking its own revenue. *(The per-brand price tables below are retained only as historical reference and are replaced by this single membership.)*
 
 ---
 
@@ -107,11 +128,7 @@ Walmart, Target, Costco, BJ's Wholesale, Sam's Club, Aldi, Lidl, Dollar General,
 - Price history charts (is this actually a good price?)
 - B2B: property management companies, corporate office supply
 
-**Revenue model (same tiers as WhollyFare, adapted):**
-- Free: Cross-store price comparison, 3 categories
-- $5/mo: Full comparison, all categories, reorder reminders
-- $12/mo: Constraint filtering, allergy/sensitivity profiles
-- $19/mo: Full history, subscribe-and-save optimizer, bulk math
+**Revenue model:** No separate subscription. WhollyWare is included in the one Wholly membership (Free / $9 / $19) — this category simply turns on for existing members at no extra charge.
 
 ---
 
@@ -170,18 +187,14 @@ Chewy, PetSmart, Petco, Tractor Supply Co., Walmart, Target, Costco, Amazon, loc
 - Subscription optimizer (when Chewy Autoship + coupon beats PetSmart in-store)
 - B2B: animal shelters, rescue organizations, boarding facilities
 
-**Revenue model:**
-- Free: 1 pet, cross-store price comparison, 3 stores
-- $6/mo: Unlimited pets, all stores, reorder reminders
-- $15/mo: Full dietary constraint profiles, vet diet tracking
-- $22/mo: Medication pricing, prescription comparison, full history
+**Revenue model:** No separate subscription. WhollyPaws is included in the one Wholly membership (Free / $9 / $19) — pet pricing and the full dietary constraint engine turn on for existing members at no extra charge.
 
 ---
 
-## Brand 4: WhollyCare™ — Personal Care + Beauty
+## Brand 4: WhollyBare™ — Personal Care + Beauty
 
-**Tagline:** *The personal care plan that pays you back.*
-**The name:** Tim confirmed WhollyCare. Strong choice — "care" covers both personal care (shampoo, deodorant, oral care) and beauty/cosmetics without over-promising. It's warm, clear, and the double meaning of "caring about what goes on your body" is genuine.
+**Tagline:** *The personal care plan that pays you back.* (site alt: "The beauty industry marks it up. We mark it down.")
+**The name:** WhollyBare (renamed June 2026 from the earlier "WhollyCare" beauty concept; the WhollyCare name now belongs to the free health-advocacy product). "Bare" speaks to honest, stripped-back, nothing-hidden personal care — the opposite of an industry built on markup and paid placement.
 
 ### What it does
 Cross-retailer price comparison for personal care products and cosmetics — filtered against each household member's skin sensitivities, ingredient exclusions, and product preferences. Same Sincere Strategy. The person with rosacea gets fragrance-flagged first. The person avoiding parabens never sees paraben products in their results.
@@ -221,7 +234,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 - CVS ExtraCare and myWalgreens integration (loyalty pricing factored in automatically)
 - INCI ingredient parsing — plain English translation of ingredient lists
 - Ulta and Sephora price feeds
-- Personal care calendar (shampoo lasts ~6 weeks — WhollyCare knows when you'll run out)
+- Personal care calendar (shampoo lasts ~6 weeks — WhollyBare knows when you'll run out)
 - Routine builder — "your full skincare routine, priced optimally across stores"
 - Cruelty-free and vegan verification layer (third-party certified only — no self-reported claims)
 
@@ -233,11 +246,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 - B2B: dermatology practices, medical spas, employer wellness programs
 - Retail partnership data product (anonymized trend data sold to brands — opt-in only, Sincere Strategy compliant)
 
-**Revenue model:**
-- Free: 1 household member, 3 categories, 3 stores
-- $6/mo: Full household, all categories, all stores, reorder calendar
-- $15/mo: Full ingredient constraint engine, skin condition profiles, INCI parsing
-- $24/mo: Routine builder, receipt tracking, subscription optimizer, full history
+**Revenue model:** No separate subscription. WhollyBare is included in the one Wholly membership (Free / $9 / $19) — personal-care pricing and the ingredient/skin constraint engine turn on for existing members at no extra charge.
 
 ---
 
@@ -248,7 +257,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 | WhollyFare | Now (pilot live) | Hardest. Proves the engine. |
 | WhollyWare | WhollyFare Phase 1 data in hand | Simplest. No meal planning. Great retail APIs. Fast POC. |
 | WhollyPaws | WhollyWare beta running | Medium complexity. Chewy API accessible. Pain point is visceral and universal. |
-| WhollyCare | WhollyPaws beta running | Most complex. Ingredient parsing, loyalty pricing, beauty fragmentation. Worth the wait — market is enormous. |
+| WhollyBare | WhollyPaws beta running | Most complex. Ingredient parsing, loyalty pricing, beauty fragmentation. Worth the wait — market is enormous. |
 
 ---
 
@@ -262,7 +271,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 >
 > WhollyFare is the proof. Eight weeks of real pilot data shows [X]% found money for participating households. The constraint engine, the cross-store optimizer, and the transparency ledger all work.
 >
-> WhollyWare, WhollyPaws, and WhollyCare take the same engine — already built, already proven — into three adjacent markets. Same codebase foundation. Same data architecture. Same founding principle. Different shelves.
+> WhollyWare, WhollyPaws, and WhollyBare take the same engine — already built, already proven — into three adjacent markets. Same codebase foundation. Same data architecture. Same founding principle. Different shelves. One membership.
 >
 > We are not a meal planning app. We are a household spending platform. The addressable market isn't dinners — it's everything your family buys.
 
@@ -278,7 +287,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 
 ---
 
-*Sentir Solutions® LLC · WhollyFare® · WhollyWare™ · WhollyPaws™ · WhollyCare™*
+*Sentir Solutions® LLC · WhollyFare® · WhollyWare™ · WhollyPaws™ · WhollyBare™ · WhollyCare® (free health advocacy)*
 *Charlottesville, VA · tim.hislop@gmail.com*
 *This document is confidential and intended for internal planning and investor conversations only.*
 
@@ -286,7 +295,7 @@ CVS, Walgreens, Rite Aid, Target, Walmart, Ulta, Sephora, Amazon, Costco, Dollar
 
 ## What's Already Built in WhollyFare That Transfers
 
-Every module below was built for WhollyFare but is brand-agnostic at its core. When starting WhollyWare, WhollyPaws, or WhollyCare, this is the codebase you copy and adapt — not rebuild from scratch.
+Every module below was built for WhollyFare but is brand-agnostic at its core. When starting WhollyWare, WhollyPaws, or WhollyBare, this is the codebase you copy and adapt — not rebuild from scratch.
 
 ### Transfers Directly (copy, rename brand references, done)
 
@@ -341,8 +350,8 @@ GitHub/
 │   └── WhollyWare-Website/         ← copy WhollyFare, adapt
 ├── WhollyPaws/
 │   └── WhollyPaws-Website/         ← copy WhollyFare, adapt
-└── WhollyCare/
-    └── WhollyCare-Website/         ← copy WhollyFare, adapt
+└── WhollyBare/
+    └── WhollyBare-Website/         ← copy WhollyFare, adapt
 ```
 
 **To start a new brand:** Fork WhollyFare's repo. Strip out recipe_library, meal_planner, Plan page, Kroger integration. Update brand tokens (colors, logo, name). Rebuild store_directory for that brand's retailers. Adapt constraint categories. You have a working skeleton in one session.
@@ -390,7 +399,7 @@ Every brand uses a simple 2-element icon + the Wholly wordmark. The icon uses th
 | WhollyFare® | Fork + leaf | Fork = food. Leaf = fresh, natural, local. The original. |
 | WhollyWare™ | House outline with a small leaf inside | House = home goods. Leaf echoes WhollyFare's natural/honest ethos. Clean and unmistakable. |
 | WhollyPaws™ | Paw print (1 large pad, 4 toe pads) | Universal pet symbol. Warm and immediately recognizable. |
-| WhollyCare™ | Five-petal botanical flower | Botanical = natural ingredients, clean beauty. Gentle, not clinical. |
+| WhollyBare™ | Five-petal botanical flower | Botanical = natural ingredients, clean beauty. Gentle, not clinical. |
 
 ### Color Palette — The Wholly Family
 
@@ -401,7 +410,7 @@ All brands share: warm cream background `#FAF8F3`, same font stack, same structu
 | WhollyFare® | `#2A5F1E` Deep forest green | `#D4A017` Warm gold | Fresh, natural, harvest |
 | WhollyWare™ | `#1B3D6E` Deep navy | `#E06030` Warm orange | Trustworthy, organized, domestic |
 | WhollyPaws™ | `#8B3A1A` Warm terra cotta | `#3A8A5C` Forest green | Earthy, warm, alive |
-| WhollyCare™ | `#5C3580` Soft purple | `#D45878` Rose | Gentle, botanical, honest |
+| WhollyBare™ | `#5C3580` Soft purple | `#D45878` Rose | Gentle, botanical, honest |
 
 ### Structural Consistency Rules
 
@@ -431,11 +440,18 @@ Simple. Parallel. Immediately understood. Every tagline follows the exact same s
 
 - ✅ Sentir Solutions LLC = holding company / investor-facing parent
 - ✅ sentir-consulting = AI consulting sub-brand (original business, rebranded)
-- ✅ Four Wholly brands confirmed: WhollyFare, WhollyWare, WhollyPaws, WhollyCare
+- ✅ Four Wholly brands confirmed: WhollyFare, WhollyWare, WhollyPaws, WhollyCare *(WhollyCare since repurposed — see June update)*
 - ✅ No more workshopping. No new brands until these four have working pilots.
 - ✅ Phase 1–2: separate Streamlit repos. Phase 3: monorepo migration.
-- ✅ Each brand gets its own investment brief + roadmap page (linked from Sentir Solutions parent)
 - ✅ WhollyFare pilot first — proves the engine. Other brands follow in sequence.
 - ✅ Domains secured May 2026: whollyfare.com (no hyphen) · wholly-ware.com · wholly-paws.com · wholly-care.com
 - ✅ Tim and Chas: no additional brand ideas to workshop. Four is the portfolio.
+
+## Update Log — June 2026
+
+- 🔄 **Pricing reversed:** the four categories are now ONE unified membership (Free / $9 / $19), every category included, new ones added at no extra charge. The separate per-brand subscriptions in the May draft are retired — they were the nickel-and-dime model the brand exists to reject. New 7th Sincere Strategy commitment: *Inclusive by default.*
+- 🔄 **Beauty brand renamed WhollyCare → WhollyBare.** ("WhollyPure" considered, not used.)
+- 🆕 **WhollyCare repurposed into a FREE health-advocacy platform** — "The Advocate in Your Pocket." Symptom literacy, advocating inside the system, vetting doctors, challenging insurance denials. It is the halo product that proves the Sincere Strategy is real (we give the most important thing away). NOT part of the paid membership.
+- ⚠️ **Domain to sort:** beauty is now WhollyBare, so it needs wholly-bare.com; wholly-care.com (already secured) now fits the WhollyCare health product. Confirm/secure before public launch.
+- 📄 Single source of truth for message + pricing: `Sentir_Consulting/Wholly_Brands/WHOLLY_PLATFORM_MESSAGE_SPINE.md`.
 

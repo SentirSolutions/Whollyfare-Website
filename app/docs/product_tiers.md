@@ -4,7 +4,15 @@
 
 ---
 
-## The four tiers
+## One membership, three prices, every category
+
+This is ONE membership at three price points — **Free / $9 / $19** — not a separate subscription per category. The four capability layers below are the ladder *inside* that membership; they describe depth of capability, not which category you unlock. Every category (groceries, household, pets, personal care) is included at every price point, and each new category lights up for existing members at no extra charge (see the "Inclusive by default" commitment in `sincere_strategy.md`).
+
+Mapping: **Free** = Tier 1. **Plus ($9)** = Tier 2 + the Tier 4 recipe layer. **Full ($19)** = Tier 3 (the complete constraint engine) + price history. Safety is never split across price points.
+
+---
+
+## The four capability layers
 
 ### Tier 1 — Smart Multi-Grocer Shopping  *(the wedge)*
 
@@ -28,7 +36,7 @@
 
 **The claim.** "Five to seven ingredients become seven different dinners. One shopping trip, one decision."
 
-**Monetization role.** Small subscription (~$5–10/mo). Converts free Tier 1 users into weekly active users. The Sunday Buy-Off lives here.
+**Monetization role.** Included at the **Plus tier ($9/mo)**, alongside the recipe layer (Tier 4). Converts free users into weekly active users. The Sunday Buy-Off lives here.
 
 ---
 
@@ -40,7 +48,7 @@
 
 **The claim.** "Best-available ingredient data with auditable sourcing, plus per-meal verification — every constraint check is shown to you, not hidden in a model." (Note: deliberately *not* "100% medical compliance," which is a liability claim we cannot defend at MVP scale.)
 
-**Monetization role.** Premium subscription (~$15–25/mo). High switching cost — once a household has invested in setting up the constraint profile and has trusted the engine for weeks, they don't leave.
+**Monetization role.** Included at the **Full tier ($19/mo)** — the complete constraint engine, never split across price points. High switching cost — once a household has invested in setting up the constraint profile and has trusted the engine for weeks, they don't leave.
 
 ---
 

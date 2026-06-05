@@ -62,9 +62,9 @@ User browser (Streamlit Cloud)
 | Value | Tier Name | Price | Access |
 |-------|-----------|-------|--------|
 | `free` | Price Finder | Free | Price comparison, weekly savings report |
-| `meal_planner` | Meal Planner | $7/mo | This Week's Plan, Sunday Buy-Off, Shopping List |
+| `meal_planner` | Meal Planner | $9/mo | This Week's Plan, Sunday Buy-Off, Shopping List |
 | `health_guard` | Health Guard | $19/mo | Dietary constraint engine (hard rules) |
-| `full_table` | Full Table | $29/mo | Recipes, cuisine preferences, pantry, meal history |
+| `full_table` | (merged into Health) | $19/mo | Recipes, cuisine preferences, pantry, meal history — now included in Health |
 
 **Trial:** 7 days from `profiles.created_at` = full `meal_planner` access (computed in app, not stored).
 

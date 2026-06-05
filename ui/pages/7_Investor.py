@@ -807,12 +807,10 @@ st.html("### Subscription only. No ads. No affiliate revenue. Ever.")
 for tier_name, tier_price, tier_desc, tier_features in [
     ("Free",     "Free",     "The wedge. Multi-grocer price comparison. Establishes habit and trust.",
      "Cross-store price comparison · Weekly sale highlights · Basic shopping list"),
-    ("Core",     "$7 / mo",  "Full meal planning, Sunday Buy-Off, Found Money tracking.",
+    ("Core",     "$9 / mo",  "Full meal planning, Sunday Buy-Off, Found Money tracking.",
      "Weekly meal plan · Found Money ledger · Sunday Buy-Off · Plan history"),
     ("Health",   "$19 / mo", "Medical constraint engine. The clinical safety layer.",
-     "Everything in Core · Hard dietary constraints · Allergen audit log · Clinical-grade filtering"),
-    ("Complete", "$29 / mo", "Recipes, pantry tracking, family favorites memory, auto-reorder.",
-     "Everything in Health · Recipe engine · Pantry tracker · Flavor memory · Auto-reorder"),
+     "Everything in Core · Hard dietary constraints · Allergen audit log · Recipe engine · Pantry tracker · Flavor memory"),
 ]:
     st.html(f"""<div class="inv-tier-row">
   <div class="inv-tier-name">{tier_name}</div>

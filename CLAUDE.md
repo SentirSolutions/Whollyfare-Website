@@ -53,9 +53,9 @@ Users log in and get current platform prices — they never touch flyer loading 
 | Tier | Name | Price | What it does |
 |---|---|---|---|
 | 1 | Price Finder | Free | Cross-store price comparison, coupon matching, weekly savings report |
-| 2 | Meal Planner | $7/mo | Weekly 5-dinner plan, Sunday Buy-Off, shopping list by store |
+| 2 | Meal Planner | $9/mo | Weekly 5-dinner plan, Sunday Buy-Off, shopping list by store |
 | 3 | Health Guard | $19/mo | Hard dietary constraint engine — allergens, celiac, CKD, diabetes, MCAS, etc. |
-| 4 | Full Table | $29/mo | Full recipes, cuisine preference memory, meal history, pantry tracking |
+| — | Full Table → merged into Health | $19/mo | Full recipes, cuisine memory, meal history, pantry — now included in Health |
 
 Never suggest ad revenue, affiliate revenue, or data sales. These violate the
 Sincere Strategy and are non-negotiable.

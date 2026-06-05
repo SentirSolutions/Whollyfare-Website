@@ -47,6 +47,11 @@ Budget optimization is always constrained by safety. The engine will never choos
 ### 6. The User's Data Belongs to the User
 Household health profiles — diagnoses, allergies, family member names — are sensitive. We will never sell, share, or train on individual user health data. Users can export their complete profile and delete their account at any time.
 
+### 7. Inclusive by Default
+We never charge you more for getting better. Every category we add — household goods, pets, personal care — is included in the membership you already have. No add-on SKUs, no module fees, no upsell to use what we built. One membership, every category, the same honest price.
+
+This is the pricing expression of everything above. A business funded by ads or per-SKU licensing cannot make this promise without breaking its own model — which is exactly why it's ours.
+
 ---
 
 ## What "Wholly" Means

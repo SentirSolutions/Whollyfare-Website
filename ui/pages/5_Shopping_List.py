@@ -75,7 +75,7 @@ if not state.has_access("meal_planner"):
                   padding:16px 20px;margin-bottom:24px;text-align:left;'>
         <div style='font-size:0.75rem;font-weight:700;text-transform:uppercase;
                     letter-spacing:0.09em;color:#3A8C4E;margin-bottom:8px;'>
-          Meal Planner — $7/month
+          Meal Planner — $9/month
         </div>
         <div style='font-size:0.85rem;color:#4A5568;line-height:1.6;'>
           ✓ &nbsp;Weekly 5-dinner plan built from this week's sale prices<br>

@@ -20,7 +20,7 @@ Use the Sign In panel in the sidebar to log in. All emails are pre-confirmed.
 
 ---
 
-## Tier 2 — Meal Planner ($7/mo)
+## Tier 2 — Meal Planner ($9/mo)
 
 | Field | Value |
 |---|---|
@@ -50,7 +50,7 @@ Use the Sign In panel in the sidebar to log in. All emails are pre-confirmed.
 
 ---
 
-## Tier 4 — Full Table ($29/mo)
+## Tier 4 — Full Table features (now merged into Health, $19/mo)
 
 | Field | Value |
 |---|---|

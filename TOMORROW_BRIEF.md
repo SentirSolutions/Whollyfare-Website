@@ -146,7 +146,7 @@ Full priority list: see `NEXT_STEPS.md` in this repo.
 
 | Brand | Mission | Model | Status |
 |---|---|---|---|
-| WhollyFare® | Grocery price optimization + meal planning | Subscription ($7-$29/mo) | Active pilot, Phase 1 |
+| WhollyFare® | Grocery price optimization + meal planning | Subscription (Free–$19/mo, one membership) | Active pilot, Phase 1 |
 | WhollyBare™ | Personal care & beauty — ingredient-transparent, honest pricing | Subscription | Blueprint + shell site |
 | WhollyPaws™ | Pet food + supplies optimization | Subscription | Blueprint + shell site |
 | WhollyWare™ | Household non-perishables | Subscription | Blueprint + shell site |
