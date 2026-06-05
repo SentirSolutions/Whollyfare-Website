@@ -415,8 +415,8 @@ if not state.is_setup_complete():
             st.stop()
 
     # ── Pricing tier cards ─────────────────────────────────────────────────────
-    t1, t2, t3, t4 = st.columns(4)
-    for col, tier in zip([t1, t2, t3, t4], tiers):
+    t1, t2, t3 = st.columns(3)
+    for col, tier in zip([t1, t2, t3], tiers):
         badge_html = (
             f"<div style='display:inline-block;background:{tier['color']};color:white;"
             f"font-size:0.65rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;"
