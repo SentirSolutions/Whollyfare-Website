@@ -737,7 +737,7 @@ CREATE POLICY "Household members can manage adherence log"
 
 CREATE TABLE IF NOT EXISTS public.constraint_evidence_sources (
   id                      uuid    PRIMARY KEY DEFAULT gen_random_uuid(),
-  constraint_key          text    NOT NULL,   -- e.g. 'hypertension', 'celiac', 'peanuts'
+  constraint_key          text    NOT NULL UNIQUE,  -- e.g. 'hypertension', 'celiac', 'peanuts' (UNIQUE: makes the seed idempotent)
   constraint_type         text    NOT NULL
                           CHECK (constraint_type IN ('diagnosis','allergen','lifestyle')),
   authority_name          text    NOT NULL,
@@ -1161,7 +1161,7 @@ VALUES
    'This is a planning tool. Kosher certification of specific products must be verified by the household. Consult your rabbi or certifying body for specific guidance.',
    '2026-01-01')
 
-ON CONFLICT DO NOTHING;
+ON CONFLICT (constraint_key) DO NOTHING;
 
 
 -- =============================================================================
